@@ -1,0 +1,50 @@
+/* 
+The code in the runnable examples provided for you may include some new 
+CSS properties that you have not seen before. 
+You will not be tested on or be expected to know these new CSS properties.
+*/
+
+body {
+    background-image: url("https://codeinstitute.s3.amazonaws.com/l3assets/js/gym-img.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    height: 25px;
+    width: 295px;
+}
+
+#feedback {
+    font-weight: bold;
+}
+
+#content-wrapper {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#usernameFeedback, 
+#trainerFeedback {
+    color: red;
+    font-size: small;
+}

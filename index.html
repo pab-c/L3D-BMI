@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content-wrapper">
+        <h1>FitGym signup</h1>
+        <p>Sign up for FitGym and receive a free body mass index (BMI) calculation.</p>
+        <form onsubmit="handleForm(event)">
+
+            <p>Username</p>
+            <input type="text" name="username" required>
+            <p id="usernameFeedback"></p>
+
+            <p>Height in centimetres</p>
+            <input type="number" min="0" name="height" required>
+
+            <p>Weight in kilograms</p>
+            <input type="number" min="0" name="weight" required>
+
+            <button type="submit" id="submitButton">Sign up</button>
+
+            <p id="result"></p>
+
+            <div id="advice"></div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
